@@ -1,0 +1,28 @@
+.splash-screen{
+    position:fixed;
+    inset:0;
+    z-index:99999;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#ffffff;
+
+    animation:splashFade 0.8s ease forwards;
+    animation-delay:1.2s;
+}
+
+.splash-logo{
+    width:500px;
+    max-width:70vw;
+    user-select:none;
+    pointer-events:none;
+}
+
+@keyframes splashFade{
+    to{
+        opacity:0;
+        visibility:hidden;
+    }
+}

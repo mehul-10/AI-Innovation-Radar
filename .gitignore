@@ -1,0 +1,74 @@
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+
+# ==========================
+# Build Output
+# ==========================
+dist/
+dist-ssr/
+.vite/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+*.env
+backend/.env
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+
+# ==========================
+# Uploads
+# ==========================
+backend/uploads/
+
+# ==========================
+# Local Files
+# ==========================
+*.local
+
+# ==========================
+# IDE
+# ==========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Visual Studio
+# ==========================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
