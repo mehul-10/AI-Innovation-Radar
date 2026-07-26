@@ -72,3 +72,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+.env
+.env.local

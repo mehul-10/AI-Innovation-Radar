@@ -1,11 +1,13 @@
 import axios from "axios";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 export const askAI = async (question, analysis) => {
   const response = await axios.post(
-    "http://localhost:8000/chat",
+    `${API_URL}/chat`,
     {
       question,
-      analysis
+      analysis,
     }
   );
 
