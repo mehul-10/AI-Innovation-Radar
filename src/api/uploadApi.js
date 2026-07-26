@@ -7,7 +7,7 @@ export const uploadDataset = async (file) => {
   formData.append("file", file);
 
   const response = await axios.post(
-    `${API}/upload`,
+    `${API}upload`,
     formData,
     {
       headers: {
