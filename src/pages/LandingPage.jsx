@@ -534,7 +534,7 @@ function LandingPage() {
           Transforming organisational knowledge into actionable intelligence.
         </p>
 
-        <span>Made by Team Breaking code © 2026</span>
+        <span>Made by Surbani Kaur and Mehul Gupta © 2026</span>
       </footer>
     </div>
   )
